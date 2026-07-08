@@ -1,0 +1,67 @@
+// notes 7/8/2026
+### Session 3
+
+ - iterator 
+ - it is an interface present in java.util package
+ - it is used to access the elements present in collection
+ - hasNext() --> boolean, iterator interface
+ - next() --> object, iterator interface
+
+
+assignment:
+// write a prg to forward and backward traversal using get(int index) method
+// create a code to comparator interface for sorting name
+
+->STACK CLASS
+STACK PARENT CLASS  (LIKE BUCKET🪣)
+ ### Stack class
+ - what it is
+  - list is the inbuild interface
+- where it is present
+  - list is present in java.util package
+- indexing is followed or not
+  - indexing is followed
+- insersion order is maintained or not
+  - insertion order is maintained
+- null values are allowed are not
+  - null values are allowed
+- duplicates are allowed are not
+  - duplicates are allowed
+- linkdedlist of no argumented constructor
+- it is a concrete class and present in java.util package
+- how data is stored in internally
+  - in vector data is stored in dynamically resizable arra
+
+ // when we try to print an reference variable 
+  internally two string method will be called it will print the object references
+  the default implemention is not usefull we change it using method overaiding
+
+
+  when we try to comapre two objects internally = of object o method will be callled it will compare the
+  object references and give bollean value as output ,we give our own implementaition foe the output
+
+  steps ot overaid object o method
+  ->downcasting the o variable to child type(student)
+
+  for sorting the custom elements
+
+  //comparable interface
+  1. Comparable Interface
+    Present in java.lang package.
+    Used for natural/default sorting.
+    Class implements Comparable<T>.
+    Override the compareTo() method.
+    Only one sorting logic can be defined
+
+
+  //comparator interface
+  2. Comparator Interface
+    Present in java.util package.
+    Used for custom sorting.
+    Create a separate class implementing Comparator<T>.
+    Override the compare() method.
+    Can define multiple sorting logics.
+
+
+inbuilt interface
+present in java util
